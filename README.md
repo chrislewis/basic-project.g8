@@ -5,3 +5,4 @@ the boilerplate in setting up a new scala project:
 * [specs2](http://etorreborre.github.com/specs2/)
 * SBT simple confguration for `0.11.0`, scala `2.9.1`, and `specs2` dependencies
 * project `name`, `organization` and `version` customizable as variables
+* everything in your project's base package imported automatically in repl sessions
