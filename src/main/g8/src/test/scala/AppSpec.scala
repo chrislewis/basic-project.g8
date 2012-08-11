@@ -1,4 +1,4 @@
-package $organization$.$name$
+package $organization$.$name;format="norm"$
 
 import org.specs2.mutable._
 

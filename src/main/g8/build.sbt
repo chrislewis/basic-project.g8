@@ -10,4 +10,4 @@ libraryDependencies := Seq(
   "org.specs2" %% "specs2" % "1.12" % "test"
 )
 
-initialCommands := "import $organization$.$name;format="lower,word"$._"
+initialCommands := "import $organization$.$name;format="norm"$._"
