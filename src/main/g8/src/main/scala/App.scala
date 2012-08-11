@@ -1,4 +1,4 @@
-package $organization$.$name;format="norm"$
+package $organization$.$name;format="lower,word"$
 
 object App {
   def main(args: Array[String]) {
