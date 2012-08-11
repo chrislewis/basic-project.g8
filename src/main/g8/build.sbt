@@ -6,7 +6,7 @@ version := "$version$"
 
 scalaVersion := "2.9.2"
 
-libraryDependencies := Seq(
+libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "1.12" % "test"
 )
 
