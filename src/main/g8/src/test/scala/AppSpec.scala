@@ -1,18 +1,20 @@
 package $organization$.$name;format="lower,word"$
 
-import org.specs2.mutable._
+import org.scalatest.WordSpec
+import org.scalatest.matchers.ShouldMatchers
 
-class AppSpec extends Specification {
+class AppSpec extends WordSpec with ShouldMatchers {
 
   "The 'Hello world' string" should {
     "contain 11 characters" in {
-      "Hello world" must have size(11)
+      "Hello world" should have length (11)
     }
     "start with 'Hello'" in {
-      "Hello world" must startWith("Hello")
+      "Hello world" should startWith ("Hello")
     }
     "end with 'world'" in {
-      "Hello world" must endWith("world")
+      "Hello world" should endWith("world")
     }
   }
+
 }
