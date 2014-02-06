@@ -1,19 +1,18 @@
 package $organization$.$name;format="lower,word"$
 
-import org.scalatest.WordSpec
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.{Matchers, PropSpec}
+import org.scalatest.prop._
 
-class AppSpec extends WordSpec with ShouldMatchers {
+class CheckSpec
+  extends PropSpec
+  with GeneratorDrivenPropertyChecks
+  with Matchers {
 
-  "The 'Hello world' string" should {
-    "contain 11 characters" in {
-      "Hello world" should have length (11)
-    }
-    "start with 'Hello'" in {
-      "Hello world" should startWith ("Hello")
-    }
-    "end with 'world'" in {
-      "Hello world" should endWith("world")
+  property ("Adition and multiplication are related") {
+    forAll { (x: Int) =>
+      whenever(x > 0) {
+        x * 2 should be(x + x)
+      }
     }
   }
 
