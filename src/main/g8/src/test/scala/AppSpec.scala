@@ -8,7 +8,7 @@ class CheckSpec
   with GeneratorDrivenPropertyChecks
   with Matchers {
 
-  property ("Adition and multiplication are related") {
+  property ("Addition and multiplication are related") {
     forAll { (x: Int) =>
       whenever(x > 0) {
         x * 2 should be(x + x)
