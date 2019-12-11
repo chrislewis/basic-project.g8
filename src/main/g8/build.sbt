@@ -1,6 +1,6 @@
 name := "$name;format="snake"$"
 
-organization := "$group;format="snake"$"
+organization := "$group$"
 
 version := "$version$"
 
