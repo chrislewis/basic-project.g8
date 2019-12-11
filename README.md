@@ -1,5 +1,7 @@
 # Basic Project
 
+### Cut the bullshit and get to work!
+
 This is a [giter8](http://www.foundweekends.org/giter8/index.html) template for removing
 the boilerplate in setting up a new scala project, invokable via
 [`sbt new`](https://www.scala-sbt.org/1.x/docs/sbt-new-and-Templates.html) since sbt 0.13.13.
