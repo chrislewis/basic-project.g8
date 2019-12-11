@@ -22,11 +22,11 @@ My years of training engineers and leading teams, delivering various kinds of pr
 
 I wish I could sum the total time I've heard discussion and debate in which the following questions were the subject:
 
-_"How should I format this code?"_
-_"Why is this file formatted this way instead of that way?"_
-_"How should I structure this project?"_
-_"What testing library and style should I use?"_
-_"Why are there so many warnings from the compiler?"_
+* _"How should I format this code?"_
+* _"Why is this file formatted this way instead of that way?"_
+* _"How should I structure this project?"_
+* _"What testing library and style should I use?"_
+* _"Why are there so many warnings from the compiler?"_
 
 I used to engage in these, and I still do when someone wants to hash out the trade-offs. However, while I have my opinions, it was to the great benefit of my productivity when I decided to stop sweating the subjective things, adopt a standard, and hand over the enforcement of that standard to a tool. At least for the subjective things, a standard that I don't necessarily prefer is better than no standard at all. Standards lead to consistency across codebases, and consistency generally enables engineers to quickly understand the fundamentals of a new codebase, prececisely because they don't have to ask questions that distract from the actual problem.
 
