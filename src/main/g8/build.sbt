@@ -1,6 +1,6 @@
-name := "$name$"
+name := "$name;format="snake"$"
 
-organization := "$organization$"
+organization := "$group;format="snake"$"
 
 version := "$version$"
 
@@ -8,4 +8,4 @@ scalaVersion := "2.13.1"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.0" % "test"
 
-initialCommands := "import $organization$.$name;format="lower,word"$._"
+initialCommands := "import $group$.$name;format="lower,word"$._"
