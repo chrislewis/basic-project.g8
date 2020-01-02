@@ -13,7 +13,7 @@ the boilerplate in setting up a new scala project, invokable via
 * [ScalaTest](http://www.scalatest.org/) with an example [FlatSpec](http://www.scalatest.org/user_guide/selecting_a_style)
 * Project `name`, `group`, `package`, and `version` customizable as variables with defaults.
 * Everything in your project's base package imported automatically in repl sessions.
-* [Scalariform](http://scala-ide.org/scalariform/) with the [default settings](https://github.com/scala-ide/scalariform/blob/master/formatterPreferences.properties) set in `.scalariform`.
+* [Scalafmt](https://scalameta.org/scalafmt/) with a couple of [default settings](https://scalameta.org/scalafmt/docs/configuration.html) set in `.scalafmt.conf`.
 * "Recommended" `scalac` 2.13 compiler flags per [Nathan Kleyn](https://nathankleyn.com/2019/05/13/recommended-scalac-flags-for-2-13/), set in `scalac.sbt`.
 
 ## Motivation
