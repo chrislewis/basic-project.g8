@@ -44,4 +44,4 @@ Compile / scalacOptions ++= Seq(
   "-Ycache-macro-class-loader:last-modified", // and macro definitions. This can lead to performance improvements.
 )
 
-scalacOptions in (Compile, console) --= Seq("-Ywarn-unused:imports", "-Xfatal-warnings")
+Compile / console / scalacOptions --= Seq("-Ywarn-unused:imports", "-Xfatal-warnings")
