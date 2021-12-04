@@ -8,8 +8,8 @@ the boilerplate in setting up a new scala project, invokable via
 
 ## What you get
 
-* sbt 1.3.4
-* Scala 2.13.1
+* sbt 1.5.5
+* Scala 2.13.7
 * [ScalaTest](http://www.scalatest.org/) with an example [FlatSpec](http://www.scalatest.org/user_guide/selecting_a_style)
 * Project `name`, `group`, `package`, and `version` customizable as variables with defaults.
 * Everything in your project's base package imported automatically in repl sessions.

@@ -4,7 +4,7 @@
  * https://nathankleyn.com/2019/05/13/recommended-scalac-flags-for-2-13/
  */
 
-scalacOptions ++= Seq(
+Compile / scalacOptions ++= Seq(
   "-deprecation", // Emit warning and location for usages of deprecated APIs.
   "-explaintypes", // Explain type errors in more detail.
   "-feature", // Emit warning and location for usages of features that should be imported explicitly.
@@ -22,7 +22,6 @@ scalacOptions ++= Seq(
   "-Xlint:inaccessible", // Warn about inaccessible types in method signatures.
   "-Xlint:infer-any", // Warn when a type argument is inferred to be `Any`.
   "-Xlint:missing-interpolator", // A string literal appears to be missing an interpolator id.
-  "-Xlint:nullary-override", // Warn when non-nullary `def f()' overrides nullary `def f'.
   "-Xlint:nullary-unit", // Warn when nullary methods return Unit.
   "-Xlint:option-implicit", // Option.apply used implicit view.
   "-Xlint:package-object-classes", // Class or object defined in package object.
